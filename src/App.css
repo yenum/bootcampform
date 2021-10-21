@@ -8,7 +8,7 @@ body {
 }
 
 body::before {
-    background-image: url("file:///Users/chiyenumanalogbei/bootcampform/src/images/bg-desktop-dark.jpg");
+    background-image: url("/Users/chiyenumanalogbei/bootcampform/src/images/bg-desktop-dark.jpg");
     background-repeat: no-repeat;
     content: '';
     position: absolute;
