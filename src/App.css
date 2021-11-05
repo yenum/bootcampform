@@ -33,7 +33,6 @@ body::before {
 .container {
    
     padding: 20px;
-    width: 60%;
     position: relative;
 }
 
@@ -41,9 +40,10 @@ body::before {
     display: inline-block;
     margin: 0 auto;
     top: 50%;
-    left: 46%;
+    left: 28%;
     position: absolute;
-    height: 600px;
+    height: 350px;
+    width: 500px;
     padding: 4rem;
     background-color: hsl(235, 24%, 19%);
     color: hsl(233, 11%, 84%);
@@ -67,13 +67,9 @@ input {
     border: 1px solid hsl(233, 14%, 35%);
 }
 
-#dates {
-    display: flex;
-    padding: 0.2rem;
-    margin-right: 1rem;
-    justify-content: space-evenly;
-    align-items: center;
-    
+.error {
+    color: red;
+    margin-top: 2px;
 }
 
 .input-area {
@@ -92,7 +88,7 @@ input {
     color: hsl(233, 11%, 84%);
     border-radius: 25px;
     padding: 1rem;
-    width: 50%;
+    width: 100%;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     font-size: 1rem;
